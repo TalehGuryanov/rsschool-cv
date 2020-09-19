@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding: 0 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .b-content {
@@ -24,7 +25,8 @@ body {
 
 .b-info {
   width: 60%;
-  padding: 50px 50px 0;
+  padding-top: 50px;
+  padding-right: 50px;
 }
 
 .b-info__present {
@@ -116,6 +118,7 @@ body {
 
 .li-experience__item {
   display: block;
+  width: fit-content;
 }
 
 .li-experience__item:hover .li-experience__link {
@@ -124,6 +127,7 @@ body {
 
 .li-experience__link {
   display: flex;
+  width: fit-content;
   align-items: center;
   font-size: 16px;
   font-weight: 400;
@@ -146,11 +150,13 @@ body {
 
 .li-info__item {
   display: flex;
+  width: fit-content;
   align-items: center;
   font-size: 16px;
 }
 
 .li-info__link {
+  width: fit-content;
   transition: font-weight .3s;
 }
 
