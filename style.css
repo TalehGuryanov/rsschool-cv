@@ -46,24 +46,6 @@ body {
   letter-spacing: 10px;
 }
 
-.b-about {
-  margin-bottom: 30px;
-}
-
-.b-about__title {
-  margin-bottom: 15px;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-bottom: 2px solid red;
-  border-width: inherit;
-}
-
-.b-about__text {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
 .li-social {
   display: flex;
   margin: 0 -10px 30px;
@@ -109,3 +91,51 @@ body {
 .li-social__link.--telegram {
   background-image: url(images/telegram.svg);
 }
+
+.b-summary {
+  margin-bottom: 30px;
+}
+
+.b-summary__title {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ff0000;
+}
+
+.b-summary__text {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.li-summary {
+  padding-left: 20px;
+}
+
+.li-summary__item {
+  display: block;
+}
+
+.li-summary__item:hover .li-summary__link {
+  font-weight: 700;
+}
+
+.li-summary__link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  transition: font-weight .3s;
+}
+
+.li-summary__link:before {
+  content: '\2022';
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+.li-summary__item+.li-summary__item {
+  margin-top: 10px;
+}
+
